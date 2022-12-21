@@ -27,6 +27,7 @@ using namespace std;
 #define sortall(x) sort(all(x))
 #define tr(it, a) for(auto it = a.begin(); it != a.end(); it++)
 #define PI 3.1415926535897932384626
+#define fio std::ios_base::sync_with_stdio(false), std::cin.tie(nullptr), std::cout.tie(nullptr)
 
 typedef pair<int, int>	pii;
 typedef pair<ll, ll>	pl;
@@ -45,7 +46,7 @@ typedef vector<vl>		vvl;
 int mpow(int base, int exp); 
 
 int main() {
-    ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    fio;
     // srand(chrono::high_resolution_clock::now().time_since_epoch().count());
     return 0;
 }
